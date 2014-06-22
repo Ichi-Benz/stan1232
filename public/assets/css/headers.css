@@ -1,0 +1,27 @@
+.htitle {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    position: relative;
+    background: -webkit-linear-gradient(left, black, #555555, black);
+    background: -moz-linear-gradient(left, black, #5c5c5c, black);
+    background: -ms-linear-gradient(left, black, #616161, black);
+    background: -o-linear-gradient(left, black, #5d5d5d, black);
+}
+.htitle:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    width: 600px;
+    margin-left: -300px;
+    margin-top: -220px;
+    height: 600px;
+    background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #444, black);
+    background: -moz-radial-gradient(50% 50%, ellipse closest-side, #444, black);
+    background: -ms-radial-gradient(50% 50%, ellipse closest-side, #444, black);
+    background: -o-radial-gradient(50% 50%, ellipse closest-side, #444, black);
+    z-index: -1;
+}

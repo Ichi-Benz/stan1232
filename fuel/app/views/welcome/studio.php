@@ -11,8 +11,8 @@ $email = Model_Social::query()->where('type', 1)->get_one();?>
 </div>
     <div class="row">
         <div class="col-md-12" style="color:#ffffff">
-            <h1><?php echo $data['studio_heading'];?></h1>
-           <p><?php echo $data['studio_content'];?></p>
+            <h1 class="htitle"><?php echo $data['studio_heading'];?></h1>
+            <p><?php echo $data['studio_content'];?></p>
             </div>
         </div>
 
